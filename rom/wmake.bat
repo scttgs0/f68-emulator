@@ -2,7 +2,7 @@ rem @echo off
 set VBCC=..\..\..\vbcc_win
 set OLDPATH=%PATH%
 set PATH=%PATH%;%VBCC%\bin_win
-pushd FoenixMCP-a2560k\src
+pushd FoenixMCP\src
 echo %VBCC%
 set
 make clean

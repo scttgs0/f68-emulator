@@ -4,7 +4,7 @@ else
 include ../documents/common.make
 endif
 
-SOURCE=FoenixMCP-a2560k$(S)src$(S)
+SOURCE=FoenixMCP$(S)src$(S)
 
 all:rom
 
@@ -16,7 +16,7 @@ clean:
 	make -C $(SOURCE) clean
 
 #
-# 		FoenixMCP-a2560k is a clone of the repository a2560 branch.
+# 		FoenixMCP is a clone of the repository main branch.
 # 		
 #		The text_init() at 301 of foenixmcp.c has been uncommented so that
 # 		it switches back to text mode at the end.
