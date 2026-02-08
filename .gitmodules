@@ -1,0 +1,6 @@
+[submodule "Musashi"]
+	path = Musashi
+	url = https://github.com/kstenerud/Musashi.git
+[submodule "rom/FoenixMCP"]
+	path = rom/FoenixMCP
+	url = https://github.com/pweingar/FoenixMCP.git
